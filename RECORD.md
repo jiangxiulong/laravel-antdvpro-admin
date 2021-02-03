@@ -32,7 +32,7 @@ _ide_helper_models.php
 ### config/app.php
 timezone PRC
 
-locale
+locale zh-CN
 ## composer
 如果本地PHP版本大于线上版本，可config中配置固定某个PHP版本
 ```
@@ -51,6 +51,8 @@ locale
 ```
 
 composer require --dev caouecs/laravel-lang
+
+cp -a vendor/caouecs/laravel-lang/src/zh-CN resources/lang
 
 composer require --dev barryvdh/laravel-ide-helper
 ## JWT
