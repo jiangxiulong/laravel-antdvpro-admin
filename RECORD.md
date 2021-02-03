@@ -49,12 +49,22 @@ locale zh-CN
         }
     }
 ```
-
+```
 composer require --dev caouecs/laravel-lang
-
 cp -a vendor/caouecs/laravel-lang/src/zh-CN resources/lang
-
+```
+```
 composer require --dev barryvdh/laravel-ide-helper
+php artisan ide-helper:generate
+"scripts":{
+    "post-update-cmd": [
+        "php artisan clear-compiled",
+        "php artisan ide-helper:generate",
+        "php artisan optimize"
+    ]
+},
+php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
+```
 ## JWT
 composer require tymon/jwt-auth:dev-develop --prefer-source
 
