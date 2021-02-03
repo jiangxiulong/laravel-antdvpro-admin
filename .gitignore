@@ -21,11 +21,6 @@ yarn-error.log
 *.ipr
 *.iws
 
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
-/storage/logs/*
-
 _ide_helper.php
 _ide_helper_models.php
 .phpstorm.meta.php
