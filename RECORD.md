@@ -40,7 +40,7 @@ locale
         "php": "7.2.7"
     }
 ```
-阿里云镜像
+按需配置阿里云镜像
 ```
     "repositories": {
         "packagist": {
@@ -50,8 +50,9 @@ locale
     }
 ```
 
-composer require caouecs/laravel-lang
-composer require barryvdh/laravel-ide-helper
+composer require --dev caouecs/laravel-lang
+
+composer require --dev barryvdh/laravel-ide-helper
 ## JWT
 composer require tymon/jwt-auth:dev-develop --prefer-source
 
