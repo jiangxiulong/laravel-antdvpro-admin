@@ -12,7 +12,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
----
+
 .DS_Store
 .idea
 .settings/
@@ -24,3 +24,8 @@ yarn-error.log
 _ide_helper.php
 _ide_helper_models.php
 .phpstorm.meta.php
+
+storage/debugbar
+config/debugbar.php
+config/debugbar.php
+

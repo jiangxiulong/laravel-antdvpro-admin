@@ -65,6 +65,11 @@ php artisan ide-helper:generate
 },
 php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
 ```
+```
+composer require barryvdh/laravel-debugbar --dev
+php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+'enabled' => env('APP_DEBUG', false),
+```
 ## JWT
 composer require tymon/jwt-auth:dev-develop --prefer-source
 
