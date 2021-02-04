@@ -69,6 +69,8 @@ php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServic
 composer require barryvdh/laravel-debugbar --dev
 php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 'enabled' => env('APP_DEBUG', false),
+
+composer require maatwebsite/excel 
 ```
 ## JWT
 composer require tymon/jwt-auth:dev-develop --prefer-source
